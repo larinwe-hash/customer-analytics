@@ -170,8 +170,8 @@ erDiagram
 ### 1. Зависимости
 
 ```bash
-git clone https://github.com/<username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/ваш-логин/customer-analytics.git
+cd customer-analytics
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
@@ -204,11 +204,3 @@ jupyter notebook notebooks/customer_analytics.ipynb
 ```
 
 Ноутбук содержит сохранённые результаты, поэтому его можно просмотреть прямо на GitHub без запуска.
-
-## Что можно доделать
-
-- Продлить A/B-тест, чтобы набрать выборку для надёжного вывода по марже, и сравнить
-  несколько вариантов стимула.
-- Оформить расчёт витрин как регулярный пайплайн (dbt или Airflow) вместо ручного запуска скриптов.
-- Посчитать окупаемость каналов по месяцам, чтобы увидеть срок возврата вложений.
-- Построить модель оттока: предсказывать, кто из активных клиентов рискует не вернуться.
