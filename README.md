@@ -170,7 +170,7 @@ erDiagram
 ### 1. Зависимости
 
 ```bash
-git clone https://github.com/ваш-логин/customer-analytics.git
+git clone https://github.com/larinwe-hash/customer-analytics.git
 cd customer-analytics
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
